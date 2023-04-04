@@ -102,7 +102,6 @@ namespace WebApi.Controllers
         public class MyResponse
         {
             private IEnumerable<Machine> malfunctions;
-            private Task<ActionResult<double>> averageDuration1;
             private Task<Machine> machineName;
             private Task<ActionResult<double>> averageDuration;
 
